@@ -33,7 +33,7 @@ Harvard's CS50 - 0.
 Andrew NG Deeplearning.ai - 1.
 
 Other Relevant Things:
-I'm dedicated to my work and will spend any amount of time neccesary to finish the tasks that I plan to do.
+Reguarding turtlesim question:There seems to be a problem in publishing to spawned turtles. My code only works for turtle1. Turtle1 is able to orbit around turtle2 but not the uther way around. My plan was to generate force on turtle one by finding distance between turtles 1 and 2 and generate the same opposite force on turtle 2. However, the same code (orbitor2) doesnt work for turtle2(which was spawned).Basically i wanted to run orbitor and orbitor2 at once using a launch file hence it would simulate both bodies attracting eachother. However, there seems to be a problem with publishing to spawned turtles.
 
 Did you attempt bonus questions:
 1. Yes.
