@@ -9,6 +9,7 @@ Roll no:
 ED21B038
 
 Previous Experience:
+Participated in the IITM techsoc for the analytics and electrical competitons(my team got 4th place in analytics.).
 I've worked with unity with C# for game development.
 I've made a chess game using C language.
 I've made simple 2-D games using python like the chrome dinosaur game.
@@ -32,7 +33,7 @@ Harvard's CS50 - 0.
 Andrew NG Deeplearning.ai - 1.
 
 Other Relevant Things:
-I'm dedicated to my work and will spend any amount of time neccesary to finish the tasks that I plan to do. I also loved workin on the appliction, so if work is anything similar to that,im 100% on board. 
+I'm dedicated to my work and will spend any amount of time neccesary to finish the tasks that I plan to do.
 
 Did you attempt bonus questions:
 1. Yes.
