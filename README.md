@@ -33,7 +33,18 @@ Harvard's CS50 - 0.
 Andrew NG Deeplearning.ai - 1.
 
 Other Relevant Things:
-Reguarding turtlesim question:There seems to be a problem in publishing to spawned turtles. My code only works for turtle1. Turtle1 is able to orbit around turtle2 but not the uther way around. My plan was to generate force on turtle one by finding distance between turtles 1 and 2 and generate the same opposite force on turtle 2. However, the same code (orbitor2) doesnt work for turtle2(which was spawned).Basically i wanted to run orbitor and orbitor2 at once using a launch file hence it would simulate both bodies attracting eachother. However, there seems to be a problem with publishing to spawned turtles.
+Section_A task_2 ROS filenames -> publisher is named pubnode, subscriber is named subnode,the message reversing node is called reverser. They are in a package called task2.The launchfile "task2launch.launch" is located in a folder named task2launch.
+
+Section_A task_3 ROS filenames -> orbitor is node for turtle1 and orbitor2 is node for turtle2.
+
+Section B_2 -> The idea is to find the number of corners in the threshholded image. If number of corners were above a certain number, they were ellipses and hence they were potholes.
+
+BONUS Question 1 -> The idea is to go through each pixel on a line making a certain angle with x-axis until its pixel value is black(0 or less than 255).We use the formula x_new = x + rcos(theta) and y_new = y + rsin(theta) where x and y are the coordinates of centre of the image.We do this for all 360 degrees and plot the value of r/(length of beam) each time.
+
+
+Reguarding section A task 3:There seems to be a problem in publishing to spawned turtles. My code only works for turtle1. Turtle1 is able to orbit around turtle2 but not the uther way around. My plan was to generate force on turtle one by finding distance between turtles 1 and 2 and generate the same opposite force on turtle 2. However, the same code (orbitor2) doesnt work for turtle2(which was spawned).Basically i wanted to run orbitor and orbitor2 at once using a launch file hence it would simulate both bodies attracting eachother. However, there seems to be a problem with publishing to spawned turtles.
+
+Reguarding 
 
 Did you attempt bonus questions:
 1. Yes.
